@@ -1,0 +1,8 @@
+xcompmgr &
+tint2 &
+feh --bg-scale Pictures/SWARM-1920x1080.png &
+nm-applet
+xfce4-power-manager
+
+
+

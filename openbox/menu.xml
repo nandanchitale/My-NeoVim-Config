@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="File Manager" icon="/home/nandan/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[xdg-open .]]></command></action></item>
+    <item label="Terminal" icon="/home/nandan/.config/obmenu-generator/icons/eb1f6f7f26cb6d31081b560ef31f4928.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+    <item label="Web Browser" icon="/home/nandan/.config/obmenu-generator/icons/c7e1c475b5b39f065032f3688b33a3eb.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="Run command" icon="/home/nandan/.config/obmenu-generator/icons/97b09c0b6a8ff6305ec974522b2a8598.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator label="Categories"/>
+  <menu id="0.774306984226317" icon="/home/nandan/.config/obmenu-generator/icons/31643ff91c9388921823807f94df951c.png" label="Accessories">
+    <item label="About Xfce" icon="/home/nandan/.config/obmenu-generator/icons/7a43c9e343d3f165c8d38c642ed9246d.png"><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
+    <item label="Application Finder" icon="/home/nandan/.config/obmenu-generator/icons/c05509a60604f3608c0a2c43ea2a0d28.png"><action name="Execute"><command><![CDATA[xfce4-appfinder]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/nandan/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="Clipboard Manager" icon="/home/nandan/.config/obmenu-generator/icons/9cadeaa20db6851876638d72c2fef649.png"><action name="Execute"><command><![CDATA[xfce4-clipman]]></command></action></item>
+    <item label="Disks" icon="/home/nandan/.config/obmenu-generator/icons/967dda2dd89af2587b1323836d0266fa.png"><action name="Execute"><command><![CDATA[gnome-disks]]></command></action></item>
+    <item label="f.lux indicator applet" icon="/home/nandan/.config/obmenu-generator/icons/4115a22e4cf81611f9bb64cf901398dc.png"><action name="Execute"><command><![CDATA[fluxgui]]></command></action></item>
+    <item label="File Manager" icon="/home/nandan/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Files" icon="/home/nandan/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[nautilus --new-window]]></command></action></item>
+    <item label="Galculator" icon="/home/nandan/.config/obmenu-generator/icons/91f7db188161719e58f34c94dd8a61e1.png"><action name="Execute"><command><![CDATA[galculator]]></command></action></item>
+    <item label="GtkHash" icon="/home/nandan/.config/obmenu-generator/icons/1c4756fe210963269092aa8fbf6a2027.png"><action name="Execute"><command><![CDATA[gtkhash]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/nandan/.config/obmenu-generator/icons/1c6409200a67086699a5c3b62fe1141e.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Manjaro User Guide" icon="/home/nandan/.config/obmenu-generator/icons/4be061af9f40ca8206b3530d4aa90698.png"><action name="Execute"><command><![CDATA[/usr/bin/manjaro-documentation]]></command></action></item>
+    <item label="Menu Editor" icon="/home/nandan/.config/obmenu-generator/icons/626d5de5bad40870527c0bd93e7f66a7.png"><action name="Execute"><command><![CDATA[/usr/bin/menulibre]]></command></action></item>
+    <item label="MongoDB Compass" icon="/home/nandan/.config/obmenu-generator/icons/e134a42d0ea51ff19610d64a70a41c09.png"><action name="Execute"><command><![CDATA[mongodb-compass]]></command></action></item>
+    <item label="Mousepad" icon="/home/nandan/.config/obmenu-generator/icons/2fd6cde714863970c6c919003bd4c3ec.png"><action name="Execute"><command><![CDATA[mousepad]]></command></action></item>
+    <item label="Neovim" icon="/home/nandan/.config/obmenu-generator/icons/e72ad0c0b7b7c783a3ef1969c4d717d1.png"><action name="Execute"><command><![CDATA[xterm -e 'nvim']]></command></action></item>
+    <item label="Notes" icon="/home/nandan/.config/obmenu-generator/icons/e9f023e32b91cd3a0182cb04eb31d8c5.png"><action name="Execute"><command><![CDATA[xfce4-notes]]></command></action></item>
+    <item label="Run Program..." icon="/home/nandan/.config/obmenu-generator/icons/c05509a60604f3608c0a2c43ea2a0d28.png"><action name="Execute"><command><![CDATA[xfce4-appfinder --collapsed]]></command></action></item>
+    <item label="Screenshot" icon="/home/nandan/.config/obmenu-generator/icons/a60bc13b3afe21473e55f2bb2d7592a0.png"><action name="Execute"><command><![CDATA[xfce4-screenshooter]]></command></action></item>
+    <item label="Sensor Viewer" icon="/home/nandan/.config/obmenu-generator/icons/ac78042819d1b5ced32848bb14505086.png"><action name="Execute"><command><![CDATA[xfce4-sensors]]></command></action></item>
+    <item label="Software Token (small)" icon="/home/nandan/.config/obmenu-generator/icons/23b8344b1f623d7fa73b370136bef86e.png"><action name="Execute"><command><![CDATA[stoken-gui --small]]></command></action></item>
+    <item label="Software Token" icon="/home/nandan/.config/obmenu-generator/icons/23b8344b1f623d7fa73b370136bef86e.png"><action name="Execute"><command><![CDATA[stoken-gui]]></command></action></item>
+    <item label="Task Manager" icon="/home/nandan/.config/obmenu-generator/icons/31643ff91c9388921823807f94df951c.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/nandan/.config/obmenu-generator/icons/eb1f6f7f26cb6d31081b560ef31f4928.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Terminator" icon="/home/nandan/.config/obmenu-generator/icons/1af80c7d36af62b03aae1edc436c72b5.png"><action name="Execute"><command><![CDATA[terminator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/nandan/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Vim" icon="/home/nandan/.config/obmenu-generator/icons/987ef92ba8a80daaf3d745e0d7495618.png"><action name="Execute"><command><![CDATA[xterm -e 'vim']]></command></action></item>
+    <item label="Visual Studio Code" icon="/home/nandan/.config/obmenu-generator/icons/0775ff53e06b1f6a59278fd96a372bcc.png"><action name="Execute"><command><![CDATA[/opt/visual-studio-code/code --no-sandbox --unity-launch]]></command></action></item>
+    <item label="VSCodium" icon="/home/nandan/.config/obmenu-generator/icons/7a7bef439a6bb15f058a5506d2ac7e4b.png"><action name="Execute"><command><![CDATA[/usr/share/vscodium-bin/bin/codium --no-sandbox --unity-launch]]></command></action></item>
+    <item label="Xfburn" icon="/home/nandan/.config/obmenu-generator/icons/27152ab2a5463fc8b72ecc5e03232f71.png"><action name="Execute"><command><![CDATA[xfburn]]></command></action></item>
+  </menu>
+  <menu id="0.52863024999121" icon="/home/nandan/.config/obmenu-generator/icons/8c1dc9cf0c1e3e94ac4e6977e943e5ff.png" label="Development">
+    <item label="CMake" icon="/home/nandan/.config/obmenu-generator/icons/28ad37ecb1da5d71e0a295a6c4674e30.png"><action name="Execute"><command><![CDATA[cmake-gui]]></command></action></item>
+    <item label="Emacs" icon="/home/nandan/.config/obmenu-generator/icons/bf09c47827ca7e1e9184991389045081.png"><action name="Execute"><command><![CDATA[emacs]]></command></action></item>
+    <item label="NetBeans IDE 8.2 RC" icon="/home/nandan/.config/obmenu-generator/icons/77dbb5cd2f1f686de4dac9241b9bfcb1.png"><action name="Execute"><command><![CDATA[/bin/sh "/run/media/nandan/G/Softwares/linux/netbeans/NB/netbeans-8.2rc/bin/netbeans"]]></command></action></item>
+    <item label="pgAdmin 4" icon="/home/nandan/.config/obmenu-generator/icons/940d4f075f3c6e6a62e08b9433a47f6f.png"><action name="Execute"><command><![CDATA[/usr/lib/pgadmin4/runtime/pgAdmin4]]></command></action></item>
+    <item label="Visual Studio Code" icon="/home/nandan/.config/obmenu-generator/icons/0775ff53e06b1f6a59278fd96a372bcc.png"><action name="Execute"><command><![CDATA[/opt/visual-studio-code/code --no-sandbox --unity-launch]]></command></action></item>
+    <item label="VSCodium" icon="/home/nandan/.config/obmenu-generator/icons/7a7bef439a6bb15f058a5506d2ac7e4b.png"><action name="Execute"><command><![CDATA[/usr/share/vscodium-bin/bin/codium --no-sandbox --unity-launch]]></command></action></item>
+  </menu>
+  <menu id="0.148041832997603" icon="/home/nandan/.config/obmenu-generator/icons/dcffb3b53473da4e549363c79ef3e5a9.png" label="Graphics">
+    <item label="Flameshot" icon="/home/nandan/.config/obmenu-generator/icons/53811e598752be796629aadeeb536c13.png"><action name="Execute"><command><![CDATA[flameshot]]></command></action></item>
+    <item label="Gcolor2" icon="/home/nandan/.config/obmenu-generator/icons/1846ad88e3256098c75664c0e1771d69.png"><action name="Execute"><command><![CDATA[gcolor2]]></command></action></item>
+    <item label="Viewnior" icon="/home/nandan/.config/obmenu-generator/icons/cf20d86a93a9a34ec28b20be736327a3.png"><action name="Execute"><command><![CDATA[viewnior]]></command></action></item>
+  </menu>
+  <menu id="0.73110814867227" icon="/home/nandan/.config/obmenu-generator/icons/9b6b51736fa80f6e4ea743e9a18b2df9.png" label="Multimedia">
+    <item label="PulseAudio Volume Control" icon="/home/nandan/.config/obmenu-generator/icons/69444a851b20aad47731d8338679c90f.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt V4L2 test Utility" icon="/home/nandan/.config/obmenu-generator/icons/6305212b18732a416bbd53041bff3dbd.png"><action name="Execute"><command><![CDATA[qv4l2]]></command></action></item>
+    <item label="Qt V4L2 video capture utility" icon="/home/nandan/.config/obmenu-generator/icons/e893e8e1054bf804a2b03b2f7c6cf7b3.png"><action name="Execute"><command><![CDATA[qvidcap]]></command></action></item>
+    <item label="Xfburn" icon="/home/nandan/.config/obmenu-generator/icons/27152ab2a5463fc8b72ecc5e03232f71.png"><action name="Execute"><command><![CDATA[xfburn]]></command></action></item>
+  </menu>
+  <menu id="0.707037146098703" icon="/home/nandan/.config/obmenu-generator/icons/c7e1c475b5b39f065032f3688b33a3eb.png" label="Network">
+    <item label="Avahi SSH Server Browser" icon="/home/nandan/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
+    <item label="Avahi VNC Server Browser" icon="/home/nandan/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
+    <item label="Brave" icon="/home/nandan/.config/obmenu-generator/icons/14ae070699e7716e348dab966d1456f8.png"><action name="Execute"><command><![CDATA[brave]]></command></action></item>
+    <item label="Mail Reader" icon="/home/nandan/.config/obmenu-generator/icons/5aeaf961de8c77f75ed5079b8fcf9d00.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="Opera" icon="/home/nandan/.config/obmenu-generator/icons/52dc273056cdb3c717cb4ea7e5522f2a.png"><action name="Execute"><command><![CDATA[opera]]></command></action></item>
+    <item label="OVPN" icon="/home/nandan/.config/obmenu-generator/icons/98c3ad4d3a7dd92eaadd63d33a61a567.png"><action name="Execute"><command><![CDATA[/opt/OVPN/OVPN]]></command></action></item>
+    <item label="Web Browser" icon="/home/nandan/.config/obmenu-generator/icons/c7e1c475b5b39f065032f3688b33a3eb.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+  </menu>
+  <menu id="0.628677630782462" icon="/home/nandan/.config/obmenu-generator/icons/0b82a46b62fcd3afe7908b39cfd0d580.png" label="Office">
+    <item label="Dictionary" icon="/home/nandan/.config/obmenu-generator/icons/39f1c3cc4185cb6326da6b6f3c9a738c.png"><action name="Execute"><command><![CDATA[xfce4-dict]]></command></action></item>
+    <item label="qpdfview" icon="/home/nandan/.config/obmenu-generator/icons/560dfa210e3220e7dcfff4fb103e1ba7.png"><action name="Execute"><command><![CDATA[qpdfview --unique]]></command></action></item>
+  </menu>
+  <menu id="0.946991335038856" icon="/home/nandan/.config/obmenu-generator/icons/7c3046a24652c3ba21ba2b29d1875390.png" label="Other">
+    <item label="StackBlitz" icon="/home/nandan/.config/obmenu-generator/icons/65c3a65a9de683dea18e9f91d1b8fcc9.png"><action name="Execute"><command><![CDATA[/usr/lib/brave/brave --profile-directory=Default --app-id=jonffppiiihbgicafldadgfbmnnhmjpi]]></command></action></item>
+  </menu>
+  <menu id="0.236307184951407" icon="/home/nandan/.config/obmenu-generator/icons/bcb151d4685693cd69071c109fe5aaa0.png" label="Settings">
+    <item label="About Me" icon="/home/nandan/.config/obmenu-generator/icons/95525277ff3701d3f37ef901bc9b46a7.png"><action name="Execute"><command><![CDATA[/usr/bin/mugshot]]></command></action></item>
+    <item label="Accessibility" icon="/home/nandan/.config/obmenu-generator/icons/9179d32e0c8ae295d8afbe71aa578b44.png"><action name="Execute"><command><![CDATA[xfce4-accessibility-settings]]></command></action></item>
+    <item label="Add/Remove Software" icon="/home/nandan/.config/obmenu-generator/icons/ff3f583dbac49307ba18cccdba7c40c3.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Advanced Network Configuration" icon="/home/nandan/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="Appearance" icon="/home/nandan/.config/obmenu-generator/icons/0dd68bbb35c85975ca801fd9aa136eb7.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+    <item label="Bluetooth Adapters" icon="/home/nandan/.config/obmenu-generator/icons/4edbdae6a3f82ae4163a21dda40f743f.png"><action name="Execute"><command><![CDATA[blueman-adapters]]></command></action></item>
+    <item label="Bluetooth Manager" icon="/home/nandan/.config/obmenu-generator/icons/4edbdae6a3f82ae4163a21dda40f743f.png"><action name="Execute"><command><![CDATA[blueman-manager]]></command></action></item>
+    <item label="Clipboard Manager Settings" icon="/home/nandan/.config/obmenu-generator/icons/9cadeaa20db6851876638d72c2fef649.png"><action name="Execute"><command><![CDATA[xfce4-clipman-settings]]></command></action></item>
+    <item label="Color Profiles" icon="/home/nandan/.config/obmenu-generator/icons/dcffb3b53473da4e549363c79ef3e5a9.png"><action name="Execute"><command><![CDATA[xfce4-color-settings]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/nandan/.config/obmenu-generator/icons/0dd68bbb35c85975ca801fd9aa136eb7.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Default Applications" icon="/home/nandan/.config/obmenu-generator/icons/a010e5393a6cbec8aee64c8a6e0e5d93.png"><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+    <item label="Desktop" icon="/home/nandan/.config/obmenu-generator/icons/7ef6b26e9f1329ccf083f8bd92a6e166.png"><action name="Execute"><command><![CDATA[xfdesktop-settings]]></command></action></item>
+    <item label="Display" icon="/home/nandan/.config/obmenu-generator/icons/1e79fc190623fec5805bc0c8882559fe.png"><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+    <item label="File Manager Settings" icon="/home/nandan/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="Firewall Configuration" icon="/home/nandan/.config/obmenu-generator/icons/b8b5ab15fcb7e87f3e551ca800b9c7a6.png"><action name="Execute"><command><![CDATA[gufw]]></command></action></item>
+    <item label="Keyboard" icon="/home/nandan/.config/obmenu-generator/icons/a4e5205467b6f5a5a1c2d3acb656a10b.png"><action name="Execute"><command><![CDATA[xfce4-keyboard-settings]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/nandan/.config/obmenu-generator/icons/1c6409200a67086699a5c3b62fe1141e.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Menu Editor" icon="/home/nandan/.config/obmenu-generator/icons/626d5de5bad40870527c0bd93e7f66a7.png"><action name="Execute"><command><![CDATA[/usr/bin/menulibre]]></command></action></item>
+    <item label="Mouse and Touchpad" icon="/home/nandan/.config/obmenu-generator/icons/98876c630b0f1271c951ccf4f45c78ba.png"><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+    <item label="Notifications" icon="/home/nandan/.config/obmenu-generator/icons/eeb089ba62191336f0f0788d2fbe3e9d.png"><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/nandan/.config/obmenu-generator/icons/0476ece428f10447c407d0cc404807fd.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Panel" icon="/home/nandan/.config/obmenu-generator/icons/a8e043e750aab4414f3a0370b65921e0.png"><action name="Execute"><command><![CDATA[xfce4-panel --preferences]]></command></action></item>
+    <item label="Power Manager" icon="/home/nandan/.config/obmenu-generator/icons/652a00891eac179acfaafc7767ef43a2.png"><action name="Execute"><command><![CDATA[xfce4-power-manager-settings]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/nandan/.config/obmenu-generator/icons/c5489a507574a5078102c94d42960b23.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="Screensaver" icon="/home/nandan/.config/obmenu-generator/icons/df3a2875c6dc098f2487f501f19d06aa.png"><action name="Execute"><command><![CDATA[xfce4-screensaver-preferences]]></command></action></item>
+    <item label="Session and Startup" icon="/home/nandan/.config/obmenu-generator/icons/e7d9a2f831e0025778f81b3b99124a8b.png"><action name="Execute"><command><![CDATA[xfce4-session-settings]]></command></action></item>
+    <item label="Settings Editor" icon="/home/nandan/.config/obmenu-generator/icons/99a38c76ea1616c8f88c1647623f975a.png"><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+    <item label="Settings Manager" icon="/home/nandan/.config/obmenu-generator/icons/176bd3d00e82067168210c8421460408.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+    <item label="Text Editor Settings" icon="/home/nandan/.config/obmenu-generator/icons/2fd6cde714863970c6c919003bd4c3ec.png"><action name="Execute"><command><![CDATA[mousepad --preferences]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/nandan/.config/obmenu-generator/icons/a8e043e750aab4414f3a0370b65921e0.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+    <item label="Window Manager Tweaks" icon="/home/nandan/.config/obmenu-generator/icons/f0c7b0131bb8c8e526c79ff2df646fcd.png"><action name="Execute"><command><![CDATA[xfwm4-tweaks-settings]]></command></action></item>
+    <item label="Window Manager" icon="/home/nandan/.config/obmenu-generator/icons/3b740365a2bc245abb2ec1584784c677.png"><action name="Execute"><command><![CDATA[xfwm4-settings]]></command></action></item>
+    <item label="Workspaces" icon="/home/nandan/.config/obmenu-generator/icons/bff73cd55b5c94e2c4d01680228a87a5.png"><action name="Execute"><command><![CDATA[xfwm4-workspace-settings]]></command></action></item>
+    <item label="Xfce Terminal Settings" icon="/home/nandan/.config/obmenu-generator/icons/a8a414ac9af84423029d18414abb2f6f.png"><action name="Execute"><command><![CDATA[xfce4-terminal --preferences]]></command></action></item>
+  </menu>
+  <menu id="0.446478925636629" icon="/home/nandan/.config/obmenu-generator/icons/a176b24cfc1041f19deeb2d962ed10c1.png" label="System">
+    <item label="Add/Remove Software" icon="/home/nandan/.config/obmenu-generator/icons/ff3f583dbac49307ba18cccdba7c40c3.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Avahi Zeroconf Browser" icon="/home/nandan/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/nandan/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="fish" icon="/home/nandan/.config/obmenu-generator/icons/d1cdfc02097ebbe6e08dd2b3b4d9ab9b.png"><action name="Execute"><command><![CDATA[xterm -e 'fish']]></command></action></item>
+    <item label="GParted" icon="/home/nandan/.config/obmenu-generator/icons/233c13d564c57f29207594f77e05f710.png"><action name="Execute"><command><![CDATA[/usr/bin/gparted]]></command></action></item>
+    <item label="Hardware Locality lstopo"><action name="Execute"><command><![CDATA[lstopo]]></command></action></item>
+    <item label="Htop" icon="/home/nandan/.config/obmenu-generator/icons/d6256ba9f410160cd50c098ee153e426.png"><action name="Execute"><command><![CDATA[xterm -e 'htop']]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/nandan/.config/obmenu-generator/icons/1c6409200a67086699a5c3b62fe1141e.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Log Out" icon="/home/nandan/.config/obmenu-generator/icons/12c58f5f8f789154d2871f412d856247.png"><action name="Execute"><command><![CDATA[xfce4-session-logout]]></command></action></item>
+    <item label="Manjaro Hello" icon="/home/nandan/.config/obmenu-generator/icons/04fffa8a7236970ba90a0f72d8f438df.png"><action name="Execute"><command><![CDATA[/usr/bin/manjaro-hello]]></command></action></item>
+    <item label="ranger" icon="/home/nandan/.config/obmenu-generator/icons/eb1f6f7f26cb6d31081b560ef31f4928.png"><action name="Execute"><command><![CDATA[xterm -e 'ranger']]></command></action></item>
+    <item label="Sensor Viewer" icon="/home/nandan/.config/obmenu-generator/icons/ac78042819d1b5ced32848bb14505086.png"><action name="Execute"><command><![CDATA[xfce4-sensors]]></command></action></item>
+    <item label="Simple Terminal" icon="/home/nandan/.config/obmenu-generator/icons/9ed3d82388a29bbb2043071628eac3a9.png"><action name="Execute"><command><![CDATA[st]]></command></action></item>
+    <item label="Task Manager" icon="/home/nandan/.config/obmenu-generator/icons/31643ff91c9388921823807f94df951c.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Terminator" icon="/home/nandan/.config/obmenu-generator/icons/1af80c7d36af62b03aae1edc436c72b5.png"><action name="Execute"><command><![CDATA[terminator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/nandan/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Timeshift" icon="/home/nandan/.config/obmenu-generator/icons/c72f302c1873c57c39639d03772f1b28.png"><action name="Execute"><command><![CDATA[timeshift-launcher]]></command></action></item>
+    <item label="Tint2" icon="/home/nandan/.config/obmenu-generator/icons/a8e043e750aab4414f3a0370b65921e0.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="UXTerm" icon="/home/nandan/.config/obmenu-generator/icons/c86d7f23ff056961342f29f534c88138.png"><action name="Execute"><command><![CDATA[uxterm]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/nandan/.config/obmenu-generator/icons/eb1f6f7f26cb6d31081b560ef31f4928.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+    <item label="XTerm" icon="/home/nandan/.config/obmenu-generator/icons/c86d7f23ff056961342f29f534c88138.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.893000843527943" icon="/home/nandan/.config/obmenu-generator/icons/5d4fce55a4a4966e420dedb34dbd7138.png" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/nandan/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/nandan/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.357041331489921" icon="/home/nandan/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/nandan/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/nandan/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/nandan/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/nandan/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/nandan/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/nandan/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/nandan/.config/obmenu-generator/icons/df15f9e0bf5c903eac5a57e791bcff4d.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.916093523138876" icon="/home/nandan/.config/obmenu-generator/icons/18d0310fcf7c8bb965edf7c46583c560.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/nandan/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/nandan/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/nandan/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/nandan/.config/obmenu-generator/icons/18d0310fcf7c8bb965edf7c46583c560.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/nandan/.config/obmenu-generator/icons/5439731ba229bd41d9a7d50326f48767.png"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
+    <item label="Exit" icon="/home/nandan/.config/obmenu-generator/icons/b3bc281a8a194e543c2044023d6975f9.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
